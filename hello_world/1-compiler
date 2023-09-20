@@ -1,2 +1,4 @@
-#!/bin/bash
-gcc -c $CFILE
+[master b068894] script that compiles a C file but does not link
+ 2 files changed, 4 insertions(+)
+ create mode 100755 hello_world/1-compiler
+ create mode 100644 hello_world/1-compiler~
