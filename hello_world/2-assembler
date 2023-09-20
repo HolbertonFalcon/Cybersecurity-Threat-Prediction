@@ -1,4 +1,2 @@
-[master 79c0189]  a script that generates the assembly code of a C code and save it in an output file
- 3 files changed, 6 insertions(+), 2 deletions(-)
- create mode 100644 hello_world/2-assembler
- create mode 100644 hello_world/2-assembler~
+#!/bin/bash
+gcc -S $CFILE
