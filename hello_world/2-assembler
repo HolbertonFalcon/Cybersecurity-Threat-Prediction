@@ -1,2 +1,2 @@
-[master 660a243] revised code
- 1 file changed, 2 insertions(+), 4 deletions(-)
+#!/bin/bash
+gcc -S $CFILE
