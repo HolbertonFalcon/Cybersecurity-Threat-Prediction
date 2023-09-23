@@ -1,26 +1,16 @@
-#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 
-int main() {
-    
-    FILE *file = fopen("main.h", "w");
+int main(void)
+{
+	char c[] = "_putchar";
+	int x;
 
-    if (file == NULL) {
-        perror("Error creating main.h file");
-        return 1;
-    }
+	for (x = 0; x < 8; x++)
+	{
+		_putchar(c[x]);
+	}
+	_putchar('\n');
 
-    fprintf(file, "#ifndef _MAIN_H\n");
-    fprintf(file, "#define _MAIN_H\n\n");
-
-    fprintf(file, "void example_1(void);\n");
-    fprintf(file, "void example_2(int arg);\n");
-    fprintf(file, "void example_3(char *str);\n\n");
-
-    fprintf(file, "#endif /* _MAIN_H */\n");
-
-    fclose(file);
-
-    printf("main.h file created with function prototypes.\n");
-
-    return 0;
+	return (0);
 }
