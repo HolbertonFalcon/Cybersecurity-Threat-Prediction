@@ -1,9 +1,9 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main - entry point thank you Sarah
+ * Main for Functions, nested loops
  *
- * Return: needs to be a number
+ * Return: should be (0)
  */
 int main(void)
 {
