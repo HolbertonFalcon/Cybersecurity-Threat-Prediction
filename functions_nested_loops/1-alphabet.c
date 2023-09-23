@@ -1,9 +1,12 @@
 #include "main.h"
 #include <unistd.h>
+
 /**
- * Function: print_alphabet
+ * print_alphabet - Prints the lowercase alphabet
  *
- * Prints the English alphabet in lowercase letters.
+ * Description: Prints the lowercase alphabet followed by a newline character.
+ *
+ * Return: Always void (no return value).
  */
 void print_alphabet(void)
 {
