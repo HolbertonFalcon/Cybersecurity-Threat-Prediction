@@ -1,9 +1,9 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * Main: check for proper dependencies
+ * Function: print_alphabet
  *
- * Return: Should be (0).
+ * Prints the English alphabet in lowercase letters.
  */
 void print_alphabet(void)
 {
