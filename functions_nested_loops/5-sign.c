@@ -25,6 +25,6 @@ int print_sign(int n)
 	}
 	else
 	{
-		return (3); 
+		return (3); /* Added a comment for this case */
 	}
 }
