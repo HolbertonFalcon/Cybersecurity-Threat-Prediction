@@ -1,12 +1,10 @@
 #include "main.h"
 #include <unistd.h>
-
 /**
- * 
- * a program that prints _putchar, followed by a new line.
+ * main - entry point thank you Sarah
  *
+ * Return: needs to be a number
  */
-
 int main(void)
 {
 	char c[] = "_putchar";
