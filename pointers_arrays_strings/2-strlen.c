@@ -1,17 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * swap_int - entry
- * @a: one
- * @b: two
+ * _strlen - Returns the length of a string.
+ * @str: The string to get the length of.
+ *
+ * Return: The length of @str.
  */
-
-void swap_int(int *a, int *b)
+size_t _strlen(const char *str)
 {
-	int c;
+	size_t length = 0;
 
-	c = *a;
-	*a = *b;
-	*b = c;
+	while (*str++)
+		length++;
+
+	return (length);
 }
